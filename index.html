@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GovCar Booking System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>GovCar Booking</h1>
+  
+  <form id="bookingForm">
+    <input type="text" id="staffName" placeholder="Staff Name" required>
+    <input type="text" id="department" placeholder="Department" required>
+    <input type="datetime-local" id="dateTime" required>
+    <input type="text" id="place" placeholder="Destination" required>
+    <input type="text" id="purpose" placeholder="Purpose" required>
+    <button type="submit">Submit Booking</button>
+  </form>
+
+  <div id="bookingsList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
